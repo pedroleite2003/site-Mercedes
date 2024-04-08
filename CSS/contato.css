@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Z{
+    position: absolute;
+    top: 7%;
+    left: 36%;
+    width: 100px;
+}
+h1{
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 43%
+}
+body{
+    background-image: url(../IMAGEM/P1.jpeg);
+}
+#principal{
+    border: 2px solid white;
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    width: 25%;
+    padding: 15px;
+}
+h2{
+    color: gray;
+    margin: 10px 5px 10px 10px;
+}
+.lab{
+    margin: 10px 0 10px 10px;
+    color: gray;
+}
+input, textarea{
+    width: 95%;
+    margin: 5px 0 10px 5px;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid gray;
+}
+#lei{
+    margin-right: 90%;
+    display: flex;
+}
+.pin{
+    margin: 5px;
+    color: gray
+    
+}
+#button{
+    background-color: rgb(216,207,207);
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 25%;
+    cursor: pointer;;
+}
+
